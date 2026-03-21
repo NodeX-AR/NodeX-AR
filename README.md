@@ -1,4 +1,5 @@
-## Hi there 👋
+# ＮｏｄｅＸ－ＡＲ ⚡
+[ ![Pro](https://img.shields.io/badge/GIT-PRO-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/pricing)
 
 <!--
 **NodeX-AR/NodeX-AR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

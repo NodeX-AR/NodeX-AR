@@ -1,6 +1,8 @@
 # ＮｏｄｅＸ－ＡＲ ⚡
-[ ![Pro](https://img.shields.io/badge/GIT-PRO-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/pricing)
-
+![Pro](https://img.shields.io/badge/ACCOUNT-PRO_VERIFIED-8A2BE2?style=for-the-badge&logo=github&logoColor=white)  
+![Views](https://komarev.com/ghpvc/?username=NodeX-AR&label=SYSTEM%20BREACHES&color=red&style=for-the-badge)  
+![Python](https://img.shields.io/badge/Python-95%25-brightgreen?style=flat-square&logo=python)  
+![Hacking](https://img.shields.io/badge/Ethical_Hacking-99%25-red?style=flat-square&logo=kali-linux)  
 <!--
 **NodeX-AR/NodeX-AR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

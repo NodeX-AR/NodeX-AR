@@ -1,0 +1,37 @@
+<svg width="600" height="150" viewBox="0 0 600 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes shift {
+      0% { stop-color: #FF003C; }   /* Cyber Red */
+      50% { stop-color: #0070FF; }  /* Electric Blue */
+      100% { stop-color: #FF003C; } /* Back to Red */
+    }
+    .nitro-text {
+      /* High-end tech font stack */
+      font-family: 'Consolas', 'Courier New', 'Inter', 'Segoe UI', monospace;
+      font-weight: 800;
+      font-style: italic;
+      font-size: 80px;
+      fill: url(#moving_gradient);
+      
+      /* The "Pro" Slant */
+      transform: skewX(-10deg);
+      transform-origin: center;
+      
+      /* Glowing Red/Blue Shadow */
+      filter: drop-shadow(0px 0px 8px rgba(255, 0, 60, 0.4));
+      
+      letter-spacing: -1px;
+    }
+    #s1 { animation: shift 2.5s infinite linear; }
+    #s2 { animation: shift 2.5s infinite linear -1.25s; }
+  </style>
+  <defs>
+    <linearGradient id="moving_gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop id="s1" offset="0%" />
+      <stop id="s2" offset="100%" />
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="nitro-text">
+    NodeX-AR
+  </text>
+</svg>

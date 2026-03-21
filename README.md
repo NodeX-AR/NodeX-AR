@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&customColorList=10&text=NodeX-AR&fontSize=70&animation=fadeIn&fontColor=ffffff" alt="NodeX-AR" />
+  <h1>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=60&duration=1&pause=0&color=8A2BE2&center=true&vCenter=true&width=500&height=100&lines=NodeX-AR" alt="NodeX-AR" />
+  </h1>
 
   <p>
     <img src="https://img.shields.io/badge/ACCOUNT-PRO_VERIFIED-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />

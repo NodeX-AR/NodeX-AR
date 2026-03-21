@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=74ebd5&customColorList=14&text=NodeX-AR&height=150&fontSize=90&fontAlignY=40&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8A2BE2&customColorList=10&text=NodeX-AR&height=150&fontSize=90&fontAlignY=40&animation=fadeIn" />
 
   <p>
     <img src="https://img.shields.io/badge/ACCOUNT-PRO_VERIFIED-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />

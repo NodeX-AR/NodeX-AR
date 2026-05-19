@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 650 180" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="borderAnim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF003C">
+        <animate attributeName="stop-color" values="#FF003C;#0070FF;#FF003C" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0070FF">
+        <animate attributeName="stop-color" values="#0070FF;#FF003C;#0070FF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF003C">
+        <animate attributeName="stop-color" values="#FF003C;#0070FF;#FF003C" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer animated border -->
+  <rect x="10" y="10" width="630" height="160" rx="20" fill="none" stroke="url(#borderAnim)" stroke-width="4"/>
+  
+  <!-- Inner border -->
+  <rect x="17" y="17" width="616" height="146" rx="14" fill="none" stroke="url(#borderAnim)" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Corner accents -->
+  <circle cx="10" cy="10" r="6" fill="#FF003C">
+    <animate attributeName="fill" values="#FF003C;#0070FF;#FF003C" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="10" r="6" fill="#0070FF">
+    <animate attributeName="fill" values="#0070FF;#FF003C;#0070FF" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="10" cy="170" r="6" fill="#0070FF">
+    <animate attributeName="fill" values="#0070FF;#FF003C;#0070FF" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="170" r="6" fill="#FF003C">
+    <animate attributeName="fill" values="#FF003C;#0070FF;#FF003C" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

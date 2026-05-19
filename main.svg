@@ -22,26 +22,20 @@
   <!-- Inner border -->
   <rect x="12" y="12" width="626" height="146" rx="12" fill="none" stroke="url(#borderAnim)" stroke-width="1" opacity="0.4"/>
   
-  <!-- Your header text animation -->
+  <!-- Text animation -->
   <style>
-    @keyframes zip-node {
+    @keyframes zip {
       0%, 45% { transform: translateX(0); opacity: 1; }
       50% { transform: translateX(100px); opacity: 0; }
       51%, 95% { transform: translateX(-100px); opacity: 0; }
       100% { transform: translateX(0); opacity: 1; }
     }
-    @keyframes zip-aswanth {
-      0%, 45% { transform: translateX(-100px); opacity: 0; }
-      50%, 95% { transform: translateX(0); opacity: 1; }
-      100% { transform: translateX(100px); opacity: 0; }
-    }
   </style>
   
-  <!-- Centered text container - applying skew to whole text block -->
+  <!-- Centered single text -->
   <g transform="translate(325, 85)">
-    <text x="0" y="0" font-family="Consolas, monospace" font-size="80" font-weight="900" font-style="italic" fill="url(#borderAnim)" transform="skewX(-10) translateX(-40)" text-anchor="middle" dominant-baseline="central" filter="drop-shadow(0 0 8px rgba(255, 0, 60, 0.4))">
-      <tspan class="node-x" style="animation: zip-node 6s infinite cubic-bezier(0.23, 1, 0.32, 1);">NODE-X</tspan>
-      <tspan class="aswanth" style="animation: zip-aswanth 6s infinite cubic-bezier(0.23, 1, 0.32, 1);">ASWANTH</tspan>
+    <text x="0" y="0" font-family="Consolas, monospace" font-size="72" font-weight="900" font-style="italic" fill="url(#borderAnim)" transform="skewX(-10)" text-anchor="middle" dominant-baseline="central" filter="drop-shadow(0 0 8px rgba(255, 0, 60, 0.4))">
+      <tspan class="node-x" style="animation: zip 6s infinite cubic-bezier(0.23, 1, 0.32, 1);">NODE-X</tspan>
     </text>
   </g>
 </svg>

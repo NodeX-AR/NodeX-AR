@@ -22,20 +22,60 @@
   <!-- Inner border -->
   <rect x="12" y="12" width="626" height="146" rx="12" fill="none" stroke="url(#borderAnim)" stroke-width="1" opacity="0.4"/>
   
-  <!-- Text animation -->
-  <style>
-    @keyframes zip {
-      0%, 45% { transform: translateX(0); opacity: 1; }
-      50% { transform: translateX(100px); opacity: 0; }
-      51%, 95% { transform: translateX(-100px); opacity: 0; }
-      100% { transform: translateX(0); opacity: 1; }
-    }
-  </style>
-  
-  <!-- Centered single text -->
-  <g transform="translate(325, 85)">
-    <text x="0" y="0" font-family="Consolas, monospace" font-size="72" font-weight="900" font-style="italic" fill="url(#borderAnim)" transform="skewX(-10)" text-anchor="middle" dominant-baseline="central" filter="drop-shadow(0 0 8px rgba(255, 0, 60, 0.4))">
-      <tspan class="node-x" style="animation: zip 6s infinite cubic-bezier(0.23, 1, 0.32, 1);">NODE-X</tspan>
+  <!-- Your original header.svg content (centered properly) -->
+  <g transform="translate(25, 10)">
+    <style>
+      @keyframes shift {
+        0%, 100% { stop-color: #FF003C; }
+        50% { stop-color: #0070FF; }
+      }
+
+      @keyframes zip-node {
+        0%, 45% { transform: translateX(0); opacity: 1; }
+        50% { transform: translateX(100px); opacity: 0; }
+        51%, 95% { transform: translateX(-100px); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+
+      @keyframes zip-aswanth {
+        0%, 45% { transform: translateX(-100px); opacity: 0; }
+        50%, 95% { transform: translateX(0); opacity: 1; }
+        100% { transform: translateX(100px); opacity: 0; }
+      }
+
+      .nitro-text {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-weight: 900;
+        font-style: italic;
+        fill: url(#g);
+        transform-origin: center;
+        letter-spacing: -1px;
+        font-size: 80px;
+        transform: skewX(-10deg);
+        filter: drop-shadow(0 0 8px rgba(255, 0, 60, 0.4));
+      }
+
+      .node-x { animation: zip-node 6s infinite cubic-bezier(0.23, 1, 0.32, 1); }
+      .aswanth { animation: zip-aswanth 6s infinite cubic-bezier(0.23, 1, 0.32, 1); }
+    </style>
+
+    <defs>
+      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#FF003C">
+          <animate attributeName="stop-color" values="#FF003C;#0070FF;#FF003C" dur="2s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="100%" stop-color="#0070FF">
+          <animate attributeName="stop-color" values="#0070FF;#FF003C;#0070FF" dur="2s" repeatCount="indefinite"/>
+        </stop>
+      </linearGradient>
+    </defs>
+    
+    <text x="300" y="75" dominant-baseline="middle" text-anchor="middle" class="nitro-text node-x">
+      NodeX-AR
+    </text>
+    
+    <text x="300" y="75" dominant-baseline="middle" text-anchor="middle" class="nitro-text aswanth">
+      Aswanth R
     </text>
   </g>
 </svg>

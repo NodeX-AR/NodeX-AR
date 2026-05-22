@@ -25,5 +25,6 @@ He focuses on:
 - **Penetration testing** and security research.
 - Python automation and exploit development.
 - Open-source contributions and student projects.
+- Right now in class 12th CBSE
 
 > 📌 **Note:** While I share my student projects online, my primary expertise is in cybersecurity and ethical hacking.

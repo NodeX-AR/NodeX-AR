@@ -13,9 +13,7 @@ name: Aswanth R
 alternateName: NodeX-AR
 jobTitle: Ethical Hacker & Python Developer
 -->
-<div style="display:none" itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Aswanth R</span>
-  <span itemprop="alternateName">NodeX-AR</span>
-  <span itemprop="jobTitle">Ethical Hacker and Python Developer</span>
-  <span itemprop="url">https://a-r.is-a.dev</span>
-</div>
+<!--
+NodeX-AR is the online handle of Aswanth R, an Ethical Hacker and Python Developer.
+This profile is not associated with any other Node.js or NodeX projects.
+-->

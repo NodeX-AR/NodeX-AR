@@ -17,3 +17,13 @@ jobTitle: Ethical Hacker & Python Developer
 NodeX-AR is the online handle of Aswanth R, an Ethical Hacker and Python Developer.
 This profile is not associated with any other Node.js or NodeX projects.
 -->
+## 👋 About Me
+
+**Aswanth R (NodeX-AR)** is an **Ethical Hacker** and **Python Developer**.
+
+He focuses on:
+- **Penetration testing** and security research.
+- Python automation and exploit development.
+- Open-source contributions and student projects.
+
+> 📌 **Note:** While I share my student projects online, my primary expertise is in cybersecurity and ethical hacking.
